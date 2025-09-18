@@ -1,0 +1,13 @@
+:root {
+    --main_font-color: #292929;
+    --font: 'Consolas', monospace;
+    --background: rgb(196, 145, 35);
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    color: var(--main_font-color);
+}

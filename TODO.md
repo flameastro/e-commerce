@@ -1,2 +1,1 @@
-- [ ] Alterar as informações de cada produto
 - [ ] Aviso sobre os produtos contidos aqui

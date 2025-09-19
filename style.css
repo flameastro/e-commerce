@@ -1,13 +1,61 @@
-:root {
-    --main_font-color: #292929;
-    --font: 'Consolas', monospace;
-    --background: rgb(196, 145, 35);
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: var(--background);
+    font-family: 'Consolas', monospace;
+    background-color: #b7b7b7;
 }
 
-h1 {
-    color: var(--main_font-color);
+nav {
+    background-color: #dfdfdf;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+h1#title {
+    color: #000000;
+}
+
+article#box1 {
+    background-color: #777777;
+    margin: 25px;
+    padding: 15px;
+}
+
+div.product {
+    background-color: #cccccc;
+    border-radius: 15px;
+    width: 12vw;
+    padding: 25px;
+    display: inline-block;
+}
+
+img#product-image01 {
+    margin-left: 25%;
+    width: 75px;
+}
+
+img#product-image02, img#product-image03 {
+    margin-left: 10%;
+    width: 165px;
+}
+
+img#product-image04 {
+    margin-left: 18%;
+    width: 117px;
+}
+
+img#product-image05, img#product-image06 {
+    margin-left: 5%;
+    width: 170px;
+}
+
+button.product-buy-button {
+    background: linear-gradient(90deg, #777777, #9c9b9b, #ababab);
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 5px;
+    display: block;
 }

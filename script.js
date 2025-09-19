@@ -1,5 +1,5 @@
-function clicarBotao() {
-    const botoes = document.querySelectorAll("button")
+function botaoCompra() {
+    const botoes = document.querySelectorAll("button.product-buy-button")
     
     for (let botao of botoes) {
         botao.addEventListener("click", () => {
@@ -8,4 +8,15 @@ function clicarBotao() {
     }
 }
 
-clicarBotao()
+botaoCompra()
+
+
+function botaoMais() {
+    const botao = document.querySelector("button#more")
+
+    botao.addEventListener('click', () => {
+        alert("Saindo...")
+    })
+}
+
+botaoMais()

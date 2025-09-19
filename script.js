@@ -1,22 +1,22 @@
 function botaoCompra() {
-    const botoes = document.querySelectorAll("button.product-buy-button")
+    const botoes = document.querySelectorAll("button.product-buy-button");
     
     for (let botao of botoes) {
         botao.addEventListener("click", () => {
-            alert("Produto comprado com sucesso!")
+            alert("Produto comprado com sucesso!");
         })
     }
 }
 
-botaoCompra()
-
+botaoCompra();
 
 function botaoMais() {
-    const botao = document.querySelector("button#more")
+    const botao = document.querySelector("button#more");
 
     botao.addEventListener('click', () => {
-        alert("Saindo...")
+        alert("Saindo...");
+        window.location.reload() ;
     })
 }
 
-botaoMais()
+botaoMais();
